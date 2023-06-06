@@ -52,6 +52,7 @@ export const Footer=()=>{
 
              </ul>
             </div>
+            <p className='credit'>Zeemack 2023, All right reserved. Developed by Farmer in tech</p>
         </footer>
     )
 }
