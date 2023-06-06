@@ -44,15 +44,15 @@ export const Footer=()=>{
                 </ul>
             </div>
             <hr/>
-            <div>
+            <div className='footer-div'>
              <ul className='footer-li2'>
-                <li><AiOutlineTwitter size={35}/></li>
-                <li><AiOutlineWhatsApp size={35}/></li>
-                <li><AiOutlineGithub size={35}/></li>
+                <li><AiOutlineTwitter size={25}/></li>
+                <li><AiOutlineWhatsApp size={25}/></li>
+                <li><AiOutlineGithub size={25}/></li>
 
              </ul>
+             <p className='credit'>Zeemack 2023, All right reserved. Developed by Farmer in tech</p>
             </div>
-            <p className='credit'>Zeemack 2023, All right reserved. Developed by Farmer in tech</p>
         </footer>
     )
 }
