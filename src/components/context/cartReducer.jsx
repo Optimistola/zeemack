@@ -13,6 +13,7 @@ const CartReducer = (state, action) => {
         }
       }
       } else {
+        window.navigator.vibrate(1000)
         return {
           ...state,
           cartItems: [...state.cartItems, action.payload],
@@ -26,6 +27,7 @@ const CartReducer = (state, action) => {
     }
   }
     case "removeCart": {
+      window.navigator.vibrate(1000)
       return {
         ...state,
         cartItems: state.cartItems.filter((item) => item.id !== action.payload),
@@ -51,7 +53,8 @@ const CartReducer = (state, action) => {
         return {
           ...state,
           showModal: true,
-          modalContent: action.payload
+          modalContent: action.payload,
+
   
         }
       }
