@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zeemack/static/css/main.c071d0b1.css",
-    "main.js": "/zeemack/static/js/main.01c09602.js",
+    "main.css": "/zeemack/static/css/main.e1e75bdf.css",
+    "main.js": "/zeemack/static/js/main.c1075553.js",
     "static/js/787.4a3eef8e.chunk.js": "/zeemack/static/js/787.4a3eef8e.chunk.js",
     "static/media/girl-cloth2.avif": "/zeemack/static/media/girl-cloth2.d4de9d5bddf3c0586b50.avif",
     "static/media/jeans.avif": "/zeemack/static/media/jeans.cc5c243df2b7a7f92a2f.avif",
@@ -76,12 +76,12 @@
     "static/media/shopify-bag4.avif": "/zeemack/static/media/shopify-bag4.196a51d257649968450c.avif",
     "static/media/neck.avif": "/zeemack/static/media/neck.de145cff3d5d03ff233f.avif",
     "index.html": "/zeemack/index.html",
-    "main.c071d0b1.css.map": "/zeemack/static/css/main.c071d0b1.css.map",
-    "main.01c09602.js.map": "/zeemack/static/js/main.01c09602.js.map",
+    "main.e1e75bdf.css.map": "/zeemack/static/css/main.e1e75bdf.css.map",
+    "main.c1075553.js.map": "/zeemack/static/js/main.c1075553.js.map",
     "787.4a3eef8e.chunk.js.map": "/zeemack/static/js/787.4a3eef8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c071d0b1.css",
-    "static/js/main.01c09602.js"
+    "static/css/main.e1e75bdf.css",
+    "static/js/main.c1075553.js"
   ]
 }
