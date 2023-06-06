@@ -18,7 +18,9 @@ const CartState = (props) => {
   const addToCart = (item, id) => {
     dispatch({ type: "addToCart", payload: item, id });
   };
-
+const ClearCart=(item)=>{
+  dispatch({type:"ClearCat"});
+}
   const removeItem = (item, id) => {
     dispatch({ type: "removeCart", payload: item, id });
   };
@@ -42,7 +44,8 @@ const CartState = (props) => {
         modalContent:state.modalContent,
         ShowModal,
         increaseQuantity,
-        decreaseQuantity
+        decreaseQuantity,
+        ClearCart
 
       }}
     >

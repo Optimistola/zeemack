@@ -88,7 +88,19 @@ const CartReducer = (state, action) => {
           })
         };
       }
-
+      case "ClearCat": {
+        window.navigator.vibrate(1000);
+        return {
+          ...state,
+          cartItems: [],
+          
+          showModal: true,
+        modalContent: {
+          title: "Clear cart",
+          text: "Cart Cleared successfully",
+        }
+      }
+    }
     default:
       return state;
   }

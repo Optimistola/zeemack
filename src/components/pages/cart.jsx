@@ -7,7 +7,7 @@ import shopping from '../images/shopping.avif'
 import empty from '../images/empty.avif'
 const Cart = () => {
   const { cartItems } = useContext(CartContext);
-
+const {ClearCart}=useContext(CartContext)
   const getTotalAmount = () => {
     return cartItems.reduce((total, item) => {
       return total + item.price * item.quantity;
@@ -19,6 +19,7 @@ const Cart = () => {
       <Label title={"Shopping Cart"} src={shopping}/>
       {cartItems.length > 0 ? (
       <div className='cart-invoice'>
+                        <button className='clear' onClick={()=>ClearCart()}>Clear all</button>
       <div className="flex-section">
           <div className="product">
             {cartItems

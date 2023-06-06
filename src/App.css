@@ -781,7 +781,6 @@ border-bottom: 2px solid purple;
     z-index: 10;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
     width:300px;
-  
   }
 }
 @media(max-width:300px){
@@ -1168,4 +1167,8 @@ footer li{
   align-items: flex-end;
   flex-wrap: wrap;
   padding: 10px;
+}
+.clear{
+  background-color:red;
+  color:white;
 }
